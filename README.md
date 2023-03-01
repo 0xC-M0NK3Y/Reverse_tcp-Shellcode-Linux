@@ -12,6 +12,7 @@ This is a reverse_tcp shellcode that you can use in C.
 Its garanty no nullbytes, you can safely strlen, strcpy on it.  
 Can't be detected by AVs.  
 You'll need execstack to build it, to make the stack executable.  
+Source code in `shellcode.asm`  full of obfuscations.
   
 ### Build
 Take a look at build.sh  
