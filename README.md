@@ -15,11 +15,13 @@ You'll need execstack to build it, to make the stack executable.
   
 ### Build
 Take a look at build.sh  
-
-    ./build.sh
+```sh
+    $ ./build.sh
+```
 
 ### Example
 
+```c
     #include "shellcode.h"
 
     int main(void)
@@ -32,3 +34,4 @@ Take a look at build.sh
 
         funcptr(inet_addr("127.0.0.1"), htons(2626));
     }
+```
